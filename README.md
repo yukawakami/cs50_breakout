@@ -49,7 +49,7 @@ Lines 117 - 121: to account the score added when hitting the key brick<br>
 Lines 125 - 129: to extend/shrink the paddle<br>
 Line 133: changed brick:hit() to take the argument self.keyFlag, to check whether the key brick was hit or not<br>
 Lines 135 - 146: power logic, for when a brick is hit<br>
-Lines 231 - 266: check if the powerup collides with the paddle. If it does and the powerSort is 1(balls), generate two more balls, is the powerSort is 2(key), set the keyFlag to true<br>
+Lines 231 - 266: check if the powerup collides with the paddle. If it does and the powerSort is 1(balls), generate two more balls, if the powerSort is 2(key), set the keyFlag to true<br>
 Lines 269 - 275: code for checking which balls have gone below bounds<br>
 Line 281: if all three balls go below the boundary, decrease health and paddle size<br>
 Lines 324 - 327: code for rendering the powerup falling to the bottom<br>
